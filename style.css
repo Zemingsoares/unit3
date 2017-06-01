@@ -1,0 +1,91 @@
+h1{
+    color: #000000;
+    font-family: Helvetica;
+    font-size: 50pt;
+    line-height: 50pt;
+}
+
+h2{
+    font-size: 1.4em;
+    word-break: keep-all;
+    white-space: nowrap;
+    overflow: scroll;
+}
+
+.button, .button2, .button3, .button4{
+    margin-top: 0.83em;
+    color:white;
+    font-weight: normal;
+    font-size: 1em;
+}
+
+.button{
+    background-color: black;
+}
+
+.button2{
+    background-color: red;
+}
+
+.button3{
+    background-color: green;
+}
+
+.button4{
+    background-color: blue;
+}
+
+.top{
+    height: 50vh;
+}
+
+#top8, #top9{
+    height: 80vh;
+}
+
+.left{
+    position: absolute;
+    font-family: Helvetica;
+    margin-top: 0.83em;
+    line-height:1.5em;
+    color: #000000;
+    font-size:1.5em;
+    text-align: center;
+    left: 0;
+    width: 33%;
+}
+
+.right{
+    position: absolute;
+    margin-top: 0.83em;
+    line-height:1.5em;
+    color: #000000;
+    font-size:1.5em;
+    font-family: Helvetica;
+    text-align: center;
+    right: 0;
+    width: 33%;
+}
+
+.center{
+    position: absolute;
+    margin-top: 0.83em;
+    line-height:1.5em;
+    color: #000000;
+    font-size:1.5em;
+    font-family: Helvetica;
+    text-align: center;
+    left: 33%;
+    right: 33%;
+}
+
+a{
+    color:white;
+    text-decoration:none;
+}
+
+#fineartexplanation{
+    display: none;
+    text-align: left;
+    margin: 20px;
+}
