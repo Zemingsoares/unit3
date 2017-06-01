@@ -1,0 +1,32 @@
+.wrap {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 50vw;
+    padding: 0;
+    overflow: hidden;
+}
+
+iframe{
+    width: 100vw;
+    height: 200vh;
+    transform: scale(0.5);
+    transform-origin: 0 0;
+    -moz-transform: scale(0.5);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.5);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(0.5);
+    -webkit-transform-origin: 0 0;
+}
+
+#left{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 50vw;
+    margin: 3vw;
+    overflow: scroll;
+}

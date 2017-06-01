@@ -1,17 +1,158 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>API_circle_temperature_test</title>
-    <script src="libraries/p5.js" type="text/javascript"></script>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Workflow</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src='https://code.responsivevoice.org/responsivevoice.js'></script>
+  <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+  <script src="libraries/p5.js" type="text/javascript"></script>
+  <script src="libraries/p5.dom.js" type="text/javascript"></script>
+  <script src="script.js" type="text/javascript"></script>
+</head>
+<body>
+  <div class="wrap row1 column1">
+    <iframe src="tries/bouncy ball/index.html"></iframe>
+  </div>
+  <div class="description row1 column2">
+    <h1><a href="tries/bouncy ball/index.html">1st Test</a></h1>
+    <p>This simple example made in class consists of a circle that bounces off the walls of the window</p>
+  </div>
+  <div class="wrap row1 column3">
+    <iframe src="tries/balls logger mousePressed/index.html"></iframe>
+  </div>
+  <div class="description row1 column4">
+    <h1><a href="tries/balls logger mousePressed/index.html">2st Test</a></h1>
+    <p>In this example also made in class, when the mouse is down multicolored balls are shot in random directions. When the mouse is released the color change stops</p>
+  </div>
 
-    <script src="libraries/p5.dom.js" type="text/javascript"></script>
-    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+  <div class="wrap row2 column1">
+    <iframe src="tries/ISS_api/index.html"></iframe>
+  </div>
+  <div class="description row2 column2">
+    <h1><a href="tries/ISS_api/index.html">ISS api</a></h1>
+    <p>Here you can see the position of the ISS relative to the earth. (not the most accurate) It uses the ISS api given as an example in class</p>
+  </div>
+  <div class="wrap row2 column3">
+    <iframe src="tries/API_circle_temperature_test/index.html"></iframe>
+  </div>
+  <div class="description row2 column4">
+    <h1><a href="tries/API_circle_temperature_test/index.html">1st Temperature Test</a></h1>
+    <p>This simple composition changes color acording to the temperature of my hometown.</p>
+  </div>
 
-    <script src="sketch.js" type="text/javascript"></script>
+  <div class="wrap row3 column1">
+    <iframe src="tries/API_circle_temperature_test 2/index.html"></iframe>
+  </div>
+  <div class="description row3 column2">
+    <h1><a href="tries/API_circle_temperature_test 2/index.html">2nd Temperature Test</a></h1>
+    <p>In this test you can search for any city in the planet and the colder it is there, the darker the circle will be. I deconstructed the link used to get the data in a way that allowed me to introduce the val() of the input into it and then get new data</p>
+  </div>
+  <div class="wrap row3 column3">
+    <iframe src="tries/API_circle_temperature_test 3/index.html"></iframe>
+  </div>
+  <div class="description row3 column4">
+    <h1><a href="tries/API_circle_temperature_test 3/index.html">3rd Temperature Test</a></h1>
+    <p>Same as previous but red is hot, blue is cold</p>
+  </div>
 
-    <style> body {padding: 0; margin: 0;} canvas {vertical-align: top;} </style>
-  </head>
-  <body>
-  </body>
+  <div class="wrap row4 column1">
+    <iframe src="tries/LOGO DOSSIS PERFEITO/index.html"></iframe>
+  </div>
+  <div class="description row4 column2">
+    <h1><a href="tries/LOGO DOSSIS PERFEITO/index.html">Monolith Logo I</a></h1>
+    <p>First shot at WEBGL. Simple torus and sphere merged together. Had to figure the order between translate and rotate so that the sphere didn't move in relation to the torus. Used it as my team's logo</p>
+  </div>
+  <div class="wrap row4 column3">
+    <iframe src="tries/LOGO DOSSIS PERFEITO/Logo dossis 2/index.html"></iframe>
+  </div>
+  <div class="description row4 column4">
+    <h1><a href="tries/LOGO DOSSIS PERFEITO/Logo dossis 2/index.html">Monolith Logo II</a></h1>
+    <p>Second shot at WEBGL. Same as before but with a cilinder and a torus. And they rotate in diferent directions</p>
+  </div>
+
+  <div class="wrap row5 column1">
+    <iframe src="tries/random line/index.html"></iframe>
+  </div>
+  <div class="description row5 column2">
+    <h1><a href="tries/random line/index.html">Random line</a></h1>
+    <p>Used this example from p5js.org to figure out how it is made. Just changed colors and put a circle in each point the loop creates</p>
+  </div>
+  <div class="wrap row5 column3">
+    <iframe src="tries/random line mouse track (not finished)/index.html"></iframe>
+  </div>
+  <div class="description row5 column4">
+    <h1><a href="tries/random line mouse track (not finished)/index.html">Blind drawing</a></h1>
+    <p>Here you can use the mouse to draw a line. You can only view your drawing when you press the mouse</p>
+  </div>
+
+  <div class="wrap row6 column1">
+    <iframe src="tries/rotate plane/index.html"></iframe>
+  </div>
+  <div class="description row6 column2">
+    <h1><a href="tries/rotate plane/index.html">Wind speed</a></h1>
+    <p>Same as before, it uses the Yahoo weather api to get the wind speed of the city you search, and makes the shapes rotate accordingly</p>
+  </div>
+  <div class="wrap row6 column3">
+    <iframe src="tries/rothko/index.html"></iframe>
+  </div>
+  <div class="description row6 column4">
+    <h1><a href="tries/rothko/index.html">Rothko room in tate modern (unfinished)</a></h1>
+    <p>Here I used orbit control to allow some level of control for the user to see the room. It is unfinished but I like it this way. More than if it was over developed</p>
+  </div>
+
+  <div class="wrap row7 column1">
+    <iframe src="tries/SaveFramesTest/Untitled/index.html"></iframe>
+  </div>
+  <div class="description row7 column2">
+    <h1><a href="tries/SaveFramesTest/Untitled/index.html">Camera</a></h1>
+    <h1>PLEASE ALLOW ACCESS TO THE CAMERA</h1>
+    <p>Just playing with camera, microphone, save and some filters. If you press on the image a png is saved to your computer. I can probably use this along with jquery to snap pictures of the tutors, upload them to the server and then leak them</p>
+  </div>
+  <div class="wrap row7 column3">
+    <iframe src="tries/MOON/Untitled/index.html"></iframe>
+  </div>
+  <div class="description row7 column4">
+    <h1><a href="tries/MOON/Untitled/index.html">Moon walk</a></h1>
+    <p>In this test I managed to simulate a walk around the moon. Just using an image wrapped around a sphere and making the arrow keys rotate the sphere it seems like the camera character is walking around the moon</p>
+  </div>
+
+  <div class="wrap row8 column1">
+    <iframe src="tries/1st person controls/index.html"></iframe>
+  </div>
+  <div class="description row8 column2">
+    <h1><a href="tries/1st person controls/index.html">1st person controls</a></h1>
+    <p>I was playing around with THREEJS but it was too complicated to learn in such short time. I tried to figure out how to use the first person controls of this <a href="https://threejs.org/examples/?q=mine#webgl_geometry_minecraft_ao"> example </a> but I couldn't figure it out as well. So I decided to create them myself with the more simple P5. I got stuck with one <a href="fps.html">problem</a> though.</p>
+  </div>
+  <div class="wrap row8 column3">
+    <iframe src="tries/moonAPI/moon data generative/moon_circles/index.html"></iframe>
+  </div>
+  <div class="description row8 column4">
+    <h1><a href="tries/moonAPI/moon data generative/moon_circles/index.html">Narrative and voice I</a></h1>
+    <p>
+      This was the basis for my narrative and voice project. At first I thought about using a <a href="https://burningsoul.cloud/apis/moon">moon API</a>. But the moon as an astronomical object moves in enormous distances and timeframes. This means that the code had to run for ages for me to see any interesting movement. I found <a href="http://pds-geosciences.wustl.edu/lunar/mk88-l-120cvf-3-rdr-120color-v1/mkls_0001/index/index.htm">this database</a> of some 'Lunar NIR Spectrophotometry' readings. The code runs throught the text files containing the data, stored in an external file ( had to use ajax to access the files ), and use the value it finds to create a drawing. Each value is adapted to change the radius and the color of each circle. When the code reaches the end of the file, it adds x to the y position of the circle, the x position returns to 0 and does the same with a new file.
+    </p>
+  </div>
+
+  <div class="wrap row9 column1">
+    <iframe src="tries/moonAPI/moon data generative/moon_circles_RGB_test/index.html"></iframe>
+  </div>
+  <div class="description row9 column2">
+    <h1><a href="tries/moonAPI/moon data generative/moon_circles_RGB_test/index.html">Narrative and voice II</a></h1>
+    <p>
+      This test uses the exact same concept as the previous example. Except that every three values represent the RGB values for the circles, respectively. Instead of each value changing the black gradient and circle radius, it changes only the colors. I didn't really like how this example was turning out so I only added one file to the fiddle.
+    </p>
+  </div>
+  <div class="wrap row9 column3">
+    <iframe src="tries/moonAPI/moon data generative/moon_spheres/index.html"></iframe>
+  </div>
+  <div class="description row9 column4">
+    <h1><a href="tries/moonAPI/moon data generative/moon_spheres/index.html">Narrative and voice III</a></h1>
+    <p>
+      This represents the exact same idea of <a href="tries/moonAPI/moon data generative/moon_circles/index.html">Narrative and voice I</a> except that the circles are now spheres. It also only changes the spheres' diameter as I wanted to keep the glare caused by the ambient light.
+    </p>
+  </div>
+
+
+</body>
 </html>
