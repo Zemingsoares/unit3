@@ -1,17 +1,9 @@
 @font-face {
     font-family: 'DIN';
-    src: url('DINRegular.woff') format('woff'),
-         url('DINRegular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'DIN_Medium';
     src: url('DIN Medium.woff') format('woff'),
          url('DIN Medium.ttf') format('truetype');
-    font-weight: bold;
-    font-style: bold;
+    font-weight: normal;
+    font-style: normal;
 }
 
 #pagecontainer{
@@ -33,11 +25,11 @@
 }
 
 span{
-    font-family: DIN_Medium;
+    font-family: DIN;
 }
 
 .titles{
-    font-family: DIN_Medium;
+    font-family: DIN;
     text-align: center;
     margin-top: 12vh;
     font-size: 6vh;
