@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <link rel="stylesheet" type="text/css" href="css.css">
+      <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+      <script src="jquery.js"></script>
+    </head>
+    <body>
+        <div id="pagecontainer">
+            <img id="logo" src="kilo_logo.png">
+            <div id="imgslideshow">
+                <img class="bg" src="images/img1.jpg">
+                <img class="bg" src="images/img2.jpg">
+                <img class="bg" src="images/img3.jpg">
+                <img class="bg" src="images/img4.jpg">
+                <img class="bg" src="images/img5.jpg">
+                <img class="bg" src="images/img6.jpg">
+                <img class="bg" src="images/img7.jpg">
+                <img class="bg" src="images/img8.jpg">
+                <img class="bg" src="images/img9.jpg">
+                <img class="bg" src="images/img10.jpg">
+            </div>
+            <div id="menucontainer" class="slideOutMenu">
+                <span id="menuBTN1">MENU</span>
+                <span id="menuBTN2">MENU</span>
+                <div id="menu">
+                    <p> 
+                        <span id="howmn"><a href="#intro"> HOW IT WORKS </a></span><br>
+                        <span id="abtmn"><a href="#about"> ABOUT </a></span><br>
+                        <span id="mapmn"><a href="#branchlocator"> SCALE LOCATOR </a></span><br>
+                        <span id="pickupmn"><a href="#pickup"> PICK UP </a></span><br>
+                        <span id="faqmn"><a href="#faq"> FAQ </a></span><br>
+                        <span id="loginmn"><a href="#loginmn"> LOGIN </a></span><br>
+                    </p>
+                        <div id="loginform">
+                            <span id="username"><input type="text" placeholder="USERNAME"></input><br></span>
+                            <span id="password"><input type="password" placeholder="PASSWORD"></input><br></span>
+                            <span id="loginbtn"><input type="button" value="LOGIN"></input><br></span>
+                        </div>
+                    <p>
+                        <span id="joinmn"><a href="#joinmn"> JOIN </a></span><br>
+                        <span id="downloadmn"><a href="#download"> DOWNLOAD </a></span><br>
+                    </p>
+
+                </div>
+            </div>
+            <div id="landing">
+            </div>
+
+            <div id="intro" class="boxes">
+                <p id="introtext" class="texts"> 
+                    KILO® by Oxfam is a service designed to give you back credit for your donations. by donating to oxfam through kilo, you increase the variety and quality of the clothes sold, and on a larger scale, create a community that reduces wastes and creates a more ethical shopping experience.
+                </p>
+                
+                <p style="position: absolute;font-size: 180%;margin: 7vw 0 0 20vw;transform: rotate(-45deg)">></p>
+                <p style="position: absolute;font-size: 180%;margin: 7vw 0 0 39vw;transform: rotate(45deg)">></p>
+                <p style="position: absolute;font-size: 180%;margin: 22vw 0 0 39vw;transform: rotate(135deg)">></p>
+                <p style="position: absolute;font-size: 180%;margin: 22vw 0 0 20vw;transform: rotate(-135deg)">></p>
+
+                <div id="tshirtdiv" class="icondiv" data-target="oldclothestext">
+                    <img id="tshirt" class="icons" data-target="oldclothes" src="t-shirt.png">
+                    <p id="oldclothes" class="diagram" data-target="tshirt">OLD CLOTHES</p>
+                </div>
+
+                <div id="oldclothestext" class="howtotext">
+                    <p>STEP 1 - WEAR YOUR CLOTHES UNTIL THEY NO LONGER FIT OR SUIT YOUR FASHIONABLE NEEDS</p>
+                </div>
+
+                <div id="scalediv" class="icondiv" data-target="scaletext">
+                    <img id="scale" class="icons" data-target="scaleT" src="scale.png">
+                    <p id="scaleT" class="diagram" data-target="scale">SCALE</p>
+                </div>
+
+                <div id="scaletext" class="howtotext">
+                    <p>STEP 2 - TAKE ALL YOUR UNDESIRED ITEMS TO YOUR LOCAL WEIGHING STATION OR ORDER THE HOME PICK-UP SERVICE IN ORDER TO SCALE THEM</p>
+                </div>
+
+                <div id="creditsdiv" class="icondiv" data-target="creditstext">
+                    <img id="credits" class="icons" data-target="getpaid" src="credits.png">
+                    <p id="getpaid" class="diagram" data-target="credits">GET PAID</p>
+                </div>
+
+                <div id="creditstext" class="howtotext">
+                    <p>STEP 3 - RECIEVE A CREDIT TRANSFER INTO YOUR ACCOUNT BASED ON THE WEIGHT OF YOUR ITEMS</p>
+                </div>
+
+                <div id="pricetagdiv" class="icondiv" data-target="resaletext">
+                    <img id="pricetag" class="icons" data-target="resale" src="price-tag.png">
+                    <p id="resale" class="diagram" data-target="pricetag">RESALE</p>
+                </div>
+
+                <div id="resaletext" class="howtotext">
+                    <p>STEP 4 - USE YOUR CREDIT TO BUY NEW ITEMS THAT SUIT YOUR DESIRES</p>
+                </div>
+
+                <div id="placeholder" class="howtotext">
+                    <p>START SAVING TODAY<br>HOVER OVER THE ICONS TO FIND HOW</p>
+                </div>
+            </div>
+
+            <div id="about" class="boxes">
+                <div id="bottom"></div>
+                <div id="top"></div>
+                <div id="scaleInput"><div id="slider"></div></div>
+                <div id="weight">0Kg = 0£ = 0 T-shirts</div>
+                <h1 class="titles">ABOUT</h1>
+                <p class="texts"> KILO® by Oxfam was concieved in the wake of the unsustainable, wasteful, and harmful nature of the fast-fashion industry. KILO® is a service designed to create a system in which little to no waste is created, hence elimnating unused clothes from ending up in landfills that pollute the earth. in addition, it encourages donations to oxfam, from which the whole community can benefit of an increase in quantity and quality of the products avaliabe for repurchase.
+                </p>
+            </div>
+
+            <div id="branchlocator" class="boxes">
+                <h1 class="titles">SCALING STATION LOCATOR</h1>
+                <iframe src="https://www.maps.ie/create-google-map/map.php?width=100%&amp;height=600&amp;hl=en&amp;q=london+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=12&amp;iwloc=A&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                <input id="postcode" type="text" placeholder="POSTCODE, TOWN OR STREET"></input>
+                <div id="searchBTN">
+                    <span>SEARCH</span><br><br>
+                    <span>PICK-UP SERVICE</span>
+                </div>
+            </div>
+
+            <div id="faq" class="boxes">
+                <h1 class="titles">FREQUENTLY ASKED QUESTIONS</h1>
+                <div> 
+                    <p id="frequentlyaskedQ">
+                        <span id="arrow1" class="arrow">></span><span class="questions" data-target="1"> WHERE CAN I SCALE MY ITEMS?</span><br>
+                        <span id="answer1" class="answer">In any scaling station throughout london, or using or home pick up service.<br></span>
+                        <span id="arrow2" class="arrow">></span><span class="questions" data-target="2"> WHERE CAN I USE THE CREDIT I RECIEVE?</span><br>
+                        <span id="answer2" class="answer">You can use your credit in any store that accepts contacless payments or online payments.<br></span>
+                        <span id="arrow3" class="arrow">></span><span class="questions" data-target="3"> WHEN DOES THE CREDIT APPEAR IN MY ACCOUNT?</span><br>
+                        <span id="answer3" class="answer">A few seconds after you donate your clothes in a scaling station or through the pick up service the credits should come through your account.<br></span>
+                        <span id="arrow4" class="arrow">></span><span class="questions" data-target="4"> HOW CAN I SCALE IF THERE IS NO STATION NEAR-BY?</span><br>
+                        <span id="answer4" class="answer">You can use our convinient pick up service, that picks up and scales your clothing like in a scaling station.<br></span>
+                        <span id="arrow5" class="arrow">></span><span class="questions" data-target="5"> HOW MUCH IS A KILO WORTH?</span><br>
+                        <span id="answer5" class="answer">Each kilogram of items exchanged is worth 4£ of credit.<br></span>
+                        <span id="arrow6" class="arrow">></span><span class="questions" data-target="6"> HOW CAN I BOOK A PICK-UP SERVICE FROM MY HOME?</span><br>
+                        <span id="answer6" class="answer">You just need to fill up the form here, request a time, date and place, and voilá.<br></span>
+                        <span id="arrow7" class="arrow">></span><span class="questions" data-target="7"> CAN I USE MY CREDIT IN OTHER STORES?</span><br>
+                        <span id="answer7" class="answer">You can use your credit in any store that accepts contacless payments or online payments.<br></span>
+                    </p>
+                </div>
+            </div>
+
+            <div id="pickup" class="boxes">
+                <h1 class="titles">PICK UP SERVICE</h1>
+                <div id="form">
+                    <input class="pickupform" type="text" placeholder="POSTCODE, TOWN OR STREET"></input>
+                    <input class="pickupform" type="text" placeholder="NAME"></input>
+                    <input class="pickupform" type="password" placeholder="PASSWORD"></input>
+                    <input class="pickupform" type="datetime-local" placeholder="ARRIVE BY"></input><br>
+                    <input id="submit" type="button" value="CHECK AVAILABILITY"></input>
+                </div>
+
+
+                <table>
+                  <tr>
+                    <th><input type="radio"></input></th>
+                    <th>13h45</th>
+                  </tr>
+                  <tr>
+                    <th><input type="radio"></input></th>
+                    <th>14h15</th>
+                  </tr>
+                  <tr>
+                    <th><input type="radio"></input></th>
+                    <th>14h45</th>
+                  </tr>
+                  <tr>
+                    <th><input type="radio"></input></th>
+                    <th>15h15</th>
+                  </tr>
+                  <tr>
+                    <th><input type="radio"></input></th>
+                    <th>15h45</th>
+                  </tr>
+                </table>
+            </div>
+
+            <div id="download" class="boxes">
+                <h1 class="titles">DOWNLOAD KILO® APP</h1>
+                <div id="downloadicons">
+                    <img src="app_store.png">
+                    <img src="play-store.png">
+                    <img src="windows-store.png">
+                </div>
+
+                <p class="texts"> Download KILO® by Oxfam to enjoy your credits wherever you are. It allows you to check your credit on the spot, and see if you have a scaling station arround you. You can also find and reserve items in any Oxfam store much more easily as well as enjoy all the promos and deals associated with it.
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
