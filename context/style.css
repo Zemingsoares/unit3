@@ -1,0 +1,47 @@
+p {
+  font: 10pt/1.4 Helvetica, Arial, sans-serif, Verdana;
+  position: absolute;
+  width: 40vw;
+  left: 4vw;
+  max-height: 45vh;
+}
+
+h1{
+  margin-left: 4vw;
+}
+
+.slideDiv{
+  position: absolute;
+  display: inline-block;
+  left: 50vw;
+  top: 10vh;
+}
+
+.mySlides {
+  max-height: 335pt;
+  max-width: 45vw;
+  width: auto;
+}
+
+.figure{
+  position: absolute;
+  left: 0;
+  top:0;
+  height: 335pt;
+  cursor: none;
+}
+
+#next > span, #prev > span{
+  display: none;
+  position: absolute;
+  font-size: 15pt;
+  font-family: 'Times New Roman', Times, serif;
+  width: 100%;
+  height: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  background-repeat: no-repeat;
+  color: transparent;
+  z-index: 9999;
+}
