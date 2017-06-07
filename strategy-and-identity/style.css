@@ -1,0 +1,49 @@
+img{
+    max-width: 300px;
+}
+
+.wrap {
+    display: inline-block;
+    width: 320px;
+    height: 196px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.smallFrame{
+    width: 1280px;
+    height: 786px;
+    transform: scale(0.25);
+    transform-origin: 0 0;
+    -moz-transform: scale(0.25);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.25);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(0.25);
+    -webkit-transform-origin: 0 0;
+}
+
+.presentation{
+    width: 100vw;
+    text-align: center;
+}
+
+.scamp{
+    max-width: 500px;
+    max-height: 300px;
+}
+
+.website{
+    width: 100%;
+    text-align: center;
+}
+
+.website > iframe{
+    width: 80vw;
+    height: 80vh;
+    margin-bottom: 10vh;
+}
+
+.website > img{
+    margin-bottom: 10vh;
+}
