@@ -1,0 +1,9 @@
+img{
+    max-width: 300px;
+}
+
+iframe{
+    height: 400px;
+    width: 266px;
+    margin-left: 30px;
+}
